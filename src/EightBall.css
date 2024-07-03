@@ -1,0 +1,40 @@
+.EightBall {
+    color: white;
+    height: 500px;
+    width: 500px;
+    border-radius: 100%;
+    margin: auto;
+    display: grid;
+    align-items: center;
+}
+
+.EightBall-button {
+    background-color: rgb(32, 74, 213);
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 2rem 2rem;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+}
+.EightBall-button:hover {
+    background-color: white;
+    color: black;
+}
+
+.EightBall-counter {
+    margin-top: 2rem;
+}
+
+.EightBall-counter-green, .EightBall-counter-yellow, .EightBall-counter-red {
+    font-size: 2rem;
+}
+
+.EightBall-counter-green {
+    margin-right: 2rem;
+}
+
+.EightBall-counter-red {
+    margin-left: 2rem;
+}
